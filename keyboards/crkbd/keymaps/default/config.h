@@ -17,11 +17,22 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
 
 #pragma once
 
 //#define USE_MATRIX_I2C
 
+<<<<<<< HEAD
+=======
+/* Select hand configuration */
+
+#define MASTER_LEFT
+ //#define MASTER_RIGHT
+// #define EE_HANDS
+
+>>>>>>> b519e05d54 (fork sync)
 //#define QUICK_TAP_TERM 0
 //#define TAPPING_TERM 100
 
